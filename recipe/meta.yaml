@@ -1,8 +1,8 @@
 {% set name = "more-itertools" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "239089bb2722e0621a66dfa34936ab24efc846e74d45afbf5ac59b76de130a41" %}
+{% set hash = "bbe567eedc2fa930d802b848c808b5a9323f7fad2cce2ecd8832ec6e3b019e4a" %}
 {% set build = 0 %}
 
 package:
@@ -22,7 +22,6 @@ requirements:
   build:
     - python
     - setuptools
-    - six >=1.0.0,<2.0.0
 
   run:
     - python
