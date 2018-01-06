@@ -1,8 +1,8 @@
 {% set name = "more-itertools" %}
-{% set version = "3.2.0" %}
+{% set version = "4.0.1" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "bbe567eedc2fa930d802b848c808b5a9323f7fad2cce2ecd8832ec6e3b019e4a" %}
+{% set hash = "5d21dcefa19782f9ec9aa64e0bfd903f5024512b1e1f17519800b193b2e64d31" %}
 {% set build = 0 %}
 
 package:
@@ -17,6 +17,7 @@ source:
 build:
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
+  noarch: python
 
 requirements:
   build:
