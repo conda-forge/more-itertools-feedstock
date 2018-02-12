@@ -1,8 +1,8 @@
 {% set name = "more-itertools" %}
-{% set version = "4.0.1" %}
+{% set version = "4.1.0" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "5d21dcefa19782f9ec9aa64e0bfd903f5024512b1e1f17519800b193b2e64d31" %}
+{% set hash = "c9ce7eccdcb901a2c75d326ea134e0886abfbea5f93e91cc95de9507c0816c44" %}
 {% set build = 0 %}
 
 package:
@@ -10,19 +10,18 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
   {{ hash_type }}: {{ hash }}
 
 build:
   number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
