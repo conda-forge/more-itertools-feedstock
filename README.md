@@ -14,12 +14,15 @@ Summary: More routines for operating on iterables, beyond itertools
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/more-itertools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/more-itertools-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/more-itertools-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/more-itertools-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/more-itertools/badges/version.svg)](https://anaconda.org/conda-forge/more-itertools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/more-itertools/badges/downloads.svg)](https://anaconda.org/conda-forge/more-itertools)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-more--itertools-green.svg)](https://anaconda.org/conda-forge/more-itertools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/more-itertools.svg)](https://anaconda.org/conda-forge/more-itertools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/more-itertools.svg)](https://anaconda.org/conda-forge/more-itertools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/more-itertools.svg)](https://anaconda.org/conda-forge/more-itertools) |
 
 Installing more-itertools
 =========================

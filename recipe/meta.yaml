@@ -1,8 +1,8 @@
 {% set name = "more-itertools" %}
-{% set version = "4.1.0" %}
+{% set version = "4.2.0" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "c9ce7eccdcb901a2c75d326ea134e0886abfbea5f93e91cc95de9507c0816c44" %}
+{% set hash = "2b6b9893337bfd9166bee6a62c2b0c9fe7735dcf85948b387ec8cba30e85d8e8" %}
 {% set build = 0 %}
 
 package:
