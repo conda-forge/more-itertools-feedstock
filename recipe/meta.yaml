@@ -18,12 +18,10 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
-
   run:
-    - python
-    - six >=1.0.0,<2.0.0
+    - python >=3.6
 
 test:
   imports:
