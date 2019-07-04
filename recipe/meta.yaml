@@ -1,26 +1,23 @@
 {% set name = "more-itertools" %}
-{% set version = "4.3.0" %}
-{% set compress_type = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "c476b5d3a34e12d40130bc2f935028b5f636df8f372dc2c1c01dc19681b2039e" %}
+{% set version = "5.0.0" %}
 
 package:
-  name: {{ name|lower }}
-  version: {{ version }}
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash }}
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: "38a936c0a6d98a38bcc2d03fdaaedaba9f412879461dd2ceff8d37564d6522e4"
 
 build:
-  number: 1000
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  noarch: "python"
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
 requirements:
-  build:
-    - python
+  host:
     - pip
-
+    - python
   run:
     - python
     - six >=1.0.0,<2.0.0
@@ -42,3 +39,4 @@ about:
 extra:
   recipe-maintainers:
     - pmlandwehr
+    - dbast
