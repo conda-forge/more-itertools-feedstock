@@ -1,5 +1,5 @@
 {% set name = "more-itertools" %}
-{% set version = "7.1.0" %}
+{% set version = "7.2.0" %}
 
 package:
   name: "{{ name|lower }}"
