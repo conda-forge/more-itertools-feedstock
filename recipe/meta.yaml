@@ -24,7 +24,6 @@ requirements:
 test:
   imports:
     - more_itertools
-    - more_itertools.tests
 
 about:
   home: https://github.com/erikrose/more-itertools
