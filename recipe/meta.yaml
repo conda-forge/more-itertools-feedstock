@@ -26,12 +26,12 @@ test:
     - more_itertools
 
 about:
-  home: https://github.com/erikrose/more-itertools
+  home: https://github.com/more-itertools/more-itertools
   license_file: LICENSE
   license: MIT
   license_family: MIT
   summary: 'More routines for operating on iterables, beyond itertools'
-  dev_url: https://github.com/erikrose/more-itertools
+  dev_url: https://github.com/more-itertools/more-itertools
   doc_url: https://more-itertools.readthedocs.io/en/latest/api.html
 
 extra:
