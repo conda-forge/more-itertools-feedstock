@@ -1,7 +1,7 @@
 About more-itertools
 ====================
 
-Home: https://github.com/erikrose/more-itertools
+Home: https://github.com/more-itertools/more-itertools
 
 Package license: MIT
 
