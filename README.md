@@ -5,7 +5,7 @@ Home: https://github.com/more-itertools/more-itertools
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: More routines for operating on iterables, beyond itertools
 
