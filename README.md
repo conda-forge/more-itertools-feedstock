@@ -5,11 +5,13 @@ Home: https://github.com/more-itertools/more-itertools
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/more-itertools-feedstock/blob/master/LICENSE.txt)
 
 Summary: More routines for operating on iterables, beyond itertools
 
+Development: https://github.com/more-itertools/more-itertools
 
+Documentation: https://more-itertools.readthedocs.io/en/latest/api.html
 
 Current build status
 ====================
