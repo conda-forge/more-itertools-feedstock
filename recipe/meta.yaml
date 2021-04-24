@@ -10,7 +10,7 @@ source:
   sha256: c5d6da9ca3ff65220c3bfd2a8db06d698f05d4d2b9be57e1deb2be5a45019713
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
@@ -40,5 +40,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - dbast
