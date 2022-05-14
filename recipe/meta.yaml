@@ -16,10 +16,11 @@ build:
 
 requirements:
   host:
+    - flit-core
     - pip
-    - python >=3.4
+    - python >=3.6
   run:
-    - python >=3.4
+    - python >=3.6
 
 test:
   imports:
