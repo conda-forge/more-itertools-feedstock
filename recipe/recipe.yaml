@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: more-itertools
-  version: "11.2.0"
+  version: "11.2.1"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/more_itertools-${{ version }}.tar.gz
-  sha256: 59960f488835254863a857eb501f69e4ec92fdc8822f098c0f48dba530afd487
+  sha256: cbf08fd0af284dc69718b9b76a8e6203df624d70209ea511e4219d350c856f63
 
 build:
   number: 0
